@@ -3,41 +3,46 @@
 <head>
   <meta charset="utf-8">
   <title>Mi Página Web</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
 </head>
 <body>
 
-  <header>
+  <header id="main-header">
     <h1>¡Hola, soy Paulina!</h1>
-    <p>Bienvenido a mi página personal.</p> 
+    <p style="color: #9a8a9f; font-style: italic;">Bienvenido a mi página personal.</p> 
   </header>
 
-  <section>
+  <section class="section-content">
     <h2>Acerca de mí</h2>
     <p>Soy Ing. en Ciencias Ambientales.</p>
     <p>Actualmente estudiante de VI y VII semestre de Ingeniería en Software.</p>
+	<img src="profile.jpg" alt="Foto de perfil" width="150" class="profile-pic">
   </section>
 
-  <section>
+  <section class="section-content" style="background-color: #d7bde2;">
     <h3>Pasatiempos</h3>
-    <ul>
+    <ul class="list">
       <li>Correr</li>
       <li>Ir al cine y ver películas</li>
       <li>Pasear a mis mascotas</li>
     </ul>
   </section>
   
-  <section>
+  <section class="section-content">
     <h3>Series Favoritas</h3>
-    <ul>
+    <ul class="list">
       <li>Dark</li>
       <li>Gilmore Girls</li>
       <li>Breaking Bad</li>
-	  <li>Chernobyl</li>
-	  <li>Anne with an E</li>
+      <li>Chernobyl</li>
+      <li>Anne with an E</li>
     </ul>
-
   </section>
 
-  
+  <footer id="main-footer">
+    <p>&copy; 2025 Paulina - <a href="https://github.com/PaulinaRayos/" target="_blank">Mi GitHub</a></p>
+  </footer>
+
 </body>
 </html>
